@@ -1,0 +1,140 @@
+(WARE, WARM)		WARE -->> WARM -->> END
+(WARE, WARD)		WARE -->> WARD -->> END
+(WARE, HARM)		WARE -->> WARM -->> HARM -->> END
+(WARE, HARD)		WARE -->> WARD -->> HARD -->> END
+(WARE, COLD)		WARE -->> WARD -->> CARD -->> CORD -->> COLD -->> END
+(WARE, CERD)		WARE -->> WARD -->> CARD -->> CERD -->> END
+(WARE, CORE)		WARE -->> CARE -->> CORE -->> END
+(WARE, CARE)		WARE -->> CARE -->> END
+(WARE, CART)		WARE -->> CARE -->> CART -->> END
+(WARE, CORD)		WARE -->> WARD -->> CARD -->> CORD -->> END
+(WARE, CARD)		WARE -->> WARD -->> CARD -->> END
+(WARM, WARE)		WARM -->> WARE -->> END
+(WARM, WARD)		WARM -->> WARD -->> END
+(WARM, HARP)		WARM -->> HARM -->> HARP -->> END
+(WARM, HARM)		WARM -->> HARM -->> END
+(WARM, HARD)		WARM -->> WARD -->> HARD -->> END
+(WARM, COLD)		WARM -->> WARD -->> CARD -->> CORD -->> COLD -->> END
+(WARM, CERD)		WARM -->> WARD -->> CARD -->> CERD -->> END
+(WARM, CORE)		WARM -->> WARE -->> CARE -->> CORE -->> END
+(WARM, CARE)		WARM -->> WARE -->> CARE -->> END
+(WARM, CORD)		WARM -->> WARD -->> CARD -->> CORD -->> END
+(WARM, CARD)		WARM -->> WARD -->> CARD -->> END
+(WARD, WARE)		WARD -->> WARE -->> END
+(WARD, WARM)		WARD -->> WARM -->> END
+(WARD, HARP)		WARD -->> HARD -->> HARP -->> END
+(WARD, HARM)		WARD -->> WARM -->> HARM -->> END
+(WARD, HARD)		WARD -->> HARD -->> END
+(WARD, COLD)		WARD -->> CARD -->> CORD -->> COLD -->> END
+(WARD, CERD)		WARD -->> CARD -->> CERD -->> END
+(WARD, CORE)		WARD -->> WARE -->> CARE -->> CORE -->> END
+(WARD, CARE)		WARD -->> WARE -->> CARE -->> END
+(WARD, CART)		WARD -->> CARD -->> CART -->> END
+(WARD, CORD)		WARD -->> CARD -->> CORD -->> END
+(WARD, CARD)		WARD -->> CARD -->> END
+(HARP, WARM)		HARP -->> HARM -->> WARM -->> END
+(HARP, WARD)		HARP -->> HARD -->> WARD -->> END
+(HARP, HARM)		HARP -->> HARM -->> END
+(HARP, HARD)		HARP -->> HARD -->> END
+(HARP, COLD)		HARP -->> HARD -->> CARD -->> CORD -->> COLD -->> END
+(HARP, CERD)		HARP -->> HARD -->> CARD -->> CERD -->> END
+(HARP, CORD)		HARP -->> HARD -->> CARD -->> CORD -->> END
+(HARP, CARD)		HARP -->> HARD -->> CARD -->> END
+(HARM, WARE)		HARM -->> WARM -->> WARE -->> END
+(HARM, WARM)		HARM -->> WARM -->> END
+(HARM, WARD)		HARM -->> WARM -->> WARD -->> END
+(HARM, HARP)		HARM -->> HARP -->> END
+(HARM, HARD)		HARM -->> HARD -->> END
+(HARM, COLD)		HARM -->> HARD -->> CARD -->> CORD -->> COLD -->> END
+(HARM, CERD)		HARM -->> HARD -->> CARD -->> CERD -->> END
+(HARM, CORD)		HARM -->> HARD -->> CARD -->> CORD -->> END
+(HARM, CARD)		HARM -->> HARD -->> CARD -->> END
+(HARD, WARE)		HARD -->> WARD -->> WARE -->> END
+(HARD, WARM)		HARD -->> WARD -->> WARM -->> END
+(HARD, WARD)		HARD -->> WARD -->> END
+(HARD, HARP)		HARD -->> HARP -->> END
+(HARD, HARM)		HARD -->> HARM -->> END
+(HARD, COLD)		HARD -->> CARD -->> CORD -->> COLD -->> END
+(HARD, CERD)		HARD -->> CARD -->> CERD -->> END
+(HARD, CORE)		HARD -->> CARD -->> CARE -->> CORE -->> END
+(HARD, CARE)		HARD -->> CARD -->> CARE -->> END
+(HARD, CART)		HARD -->> CARD -->> CART -->> END
+(HARD, CORD)		HARD -->> CARD -->> CORD -->> END
+(HARD, CARD)		HARD -->> CARD -->> END
+(COLD, WARE)		COLD -->> CORD -->> CORE -->> CARE -->> WARE -->> END
+(COLD, WARM)		COLD -->> CORD -->> CARD -->> WARD -->> WARM -->> END
+(COLD, WARD)		COLD -->> CORD -->> CARD -->> WARD -->> END
+(COLD, HARP)		COLD -->> CORD -->> CARD -->> HARD -->> HARP -->> END
+(COLD, HARM)		COLD -->> CORD -->> CARD -->> HARD -->> HARM -->> END
+(COLD, HARD)		COLD -->> CORD -->> CARD -->> HARD -->> END
+(COLD, CERD)		COLD -->> CORD -->> CERD -->> END
+(COLD, CORE)		COLD -->> CORD -->> CORE -->> END
+(COLD, CARE)		COLD -->> CORD -->> CORE -->> CARE -->> END
+(COLD, CART)		COLD -->> CORD -->> CARD -->> CART -->> END
+(COLD, CORD)		COLD -->> CORD -->> END
+(COLD, CARD)		COLD -->> CORD -->> CARD -->> END
+(CERD, WARE)		CERD -->> CARD -->> WARD -->> WARE -->> END
+(CERD, WARM)		CERD -->> CARD -->> WARD -->> WARM -->> END
+(CERD, WARD)		CERD -->> CARD -->> WARD -->> END
+(CERD, HARP)		CERD -->> CARD -->> HARD -->> HARP -->> END
+(CERD, HARM)		CERD -->> CARD -->> HARD -->> HARM -->> END
+(CERD, HARD)		CERD -->> CARD -->> HARD -->> END
+(CERD, COLD)		CERD -->> CORD -->> COLD -->> END
+(CERD, CORE)		CERD -->> CORD -->> CORE -->> END
+(CERD, CARE)		CERD -->> CARD -->> CARE -->> END
+(CERD, CART)		CERD -->> CARD -->> CART -->> END
+(CERD, CORD)		CERD -->> CORD -->> END
+(CERD, CARD)		CERD -->> CARD -->> END
+(CORE, WARE)		CORE -->> CARE -->> WARE -->> END
+(CORE, WARM)		CORE -->> CARE -->> WARE -->> WARM -->> END
+(CORE, WARD)		CORE -->> CARE -->> WARE -->> WARD -->> END
+(CORE, HARD)		CORE -->> CARE -->> CARD -->> HARD -->> END
+(CORE, COLD)		CORE -->> CORD -->> COLD -->> END
+(CORE, CERD)		CORE -->> CORD -->> CERD -->> END
+(CORE, CARE)		CORE -->> CARE -->> END
+(CORE, CART)		CORE -->> CARE -->> CART -->> END
+(CORE, CORD)		CORE -->> CORD -->> END
+(CORE, CARD)		CORE -->> CARE -->> CARD -->> END
+(CARE, WARE)		CARE -->> WARE -->> END
+(CARE, WARM)		CARE -->> WARE -->> WARM -->> END
+(CARE, WARD)		CARE -->> WARE -->> WARD -->> END
+(CARE, HARD)		CARE -->> CARD -->> HARD -->> END
+(CARE, COLD)		CARE -->> CORE -->> CORD -->> COLD -->> END
+(CARE, CERD)		CARE -->> CARD -->> CERD -->> END
+(CARE, CORE)		CARE -->> CORE -->> END
+(CARE, CART)		CARE -->> CART -->> END
+(CARE, CORD)		CARE -->> CORE -->> CORD -->> END
+(CARE, CARD)		CARE -->> CARD -->> END
+(CART, WARE)		CART -->> CARE -->> WARE -->> END
+(CART, WARD)		CART -->> CARD -->> WARD -->> END
+(CART, HARD)		CART -->> CARD -->> HARD -->> END
+(CART, COLD)		CART -->> CARD -->> CORD -->> COLD -->> END
+(CART, CERD)		CART -->> CARD -->> CERD -->> END
+(CART, CORE)		CART -->> CARE -->> CORE -->> END
+(CART, CARE)		CART -->> CARE -->> END
+(CART, CORD)		CART -->> CARD -->> CORD -->> END
+(CART, CARD)		CART -->> CARD -->> END
+(CORD, WARE)		CORD -->> CORE -->> CARE -->> WARE -->> END
+(CORD, WARM)		CORD -->> CARD -->> WARD -->> WARM -->> END
+(CORD, WARD)		CORD -->> CARD -->> WARD -->> END
+(CORD, HARP)		CORD -->> CARD -->> HARD -->> HARP -->> END
+(CORD, HARM)		CORD -->> CARD -->> HARD -->> HARM -->> END
+(CORD, HARD)		CORD -->> CARD -->> HARD -->> END
+(CORD, COLD)		CORD -->> COLD -->> END
+(CORD, CERD)		CORD -->> CERD -->> END
+(CORD, CORE)		CORD -->> CORE -->> END
+(CORD, CARE)		CORD -->> CORE -->> CARE -->> END
+(CORD, CART)		CORD -->> CARD -->> CART -->> END
+(CORD, CARD)		CORD -->> CARD -->> END
+(CARD, WARE)		CARD -->> WARD -->> WARE -->> END
+(CARD, WARM)		CARD -->> WARD -->> WARM -->> END
+(CARD, WARD)		CARD -->> WARD -->> END
+(CARD, HARP)		CARD -->> HARD -->> HARP -->> END
+(CARD, HARM)		CARD -->> HARD -->> HARM -->> END
+(CARD, HARD)		CARD -->> HARD -->> END
+(CARD, COLD)		CARD -->> CORD -->> COLD -->> END
+(CARD, CERD)		CARD -->> CERD -->> END
+(CARD, CORE)		CARD -->> CARE -->> CORE -->> END
+(CARD, CARE)		CARD -->> CARE -->> END
+(CARD, CART)		CARD -->> CART -->> END
+(CARD, CORD)		CARD -->> CORD -->> END
